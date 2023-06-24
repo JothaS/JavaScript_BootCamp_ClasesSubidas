@@ -1,0 +1,9 @@
+.tachado {
+    text-decoration: line-through;
+}
+
+
+
+section {
+    flex-wrap: wrap;
+}
