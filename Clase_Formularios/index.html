@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Formularios</title>
+</head>
+
+<body>
+    <div>
+        <h1>Clase Formularios</h1>
+
+        <form method="get" action="">
+            <table width="80%" align="center" border="1">
+                <thead>
+                    <tr>
+                        <th colspan="4">Registro de Persona</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div><label for="nombre">Nombre y Apellido</label></div>
+                            <div><input id="nombre" type="text" name="nombre" required></div>
+                        </td>
+                        <td>
+                            <div><label for="Hobbies">Hobbies</label></div>
+                            <div><input id="Hobbies" list="lista-Hobbies" name="nombre"></div>
+                            <datalist id="lista-Hobbies">
+
+                                <option value="Deportes"></option>
+                                <option value="Baile"></option>
+                                <option value="Lectura"></option>
+                            </datalist>
+                        </td>
+                        <td>
+                            <div><label for="estado civil">Estado Civil</label></div>
+                            <div>
+                                <select name="estado civil" id="estado civil">
+                                    <option value="1">Soltero</option>
+                                    <option value="2">Casado</option>
+                                    <option value="3">Otro</option>
+                                </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div><label for="intereses">Intereses</label></div>
+                            <div>
+                                <input type="checkbox" name="intereses" value="Politica">Politica <br>
+                                <input type="checkbox" name="intereses" value="Deportes">Deportes<br>
+                                <input type="checkbox" name="intereses" value="Musica">Musica <br>
+                            </div>
+                        </td>
+                    </tr>
+                    <div>
+                        <tr>
+                            <td>
+                                <div><label for="color">Color de Preferencia</label></div>
+                                <div><Input id="color" type="color" name="color"></Input></div>
+                            </td>
+                            <td>
+                                <div><label for="fecha_nacimiento">Fecha de Nacimiento</label></div>
+                                <div><input type="date" id="fecha_nacimiento" name="fecha_nacimiento"></div>
+                            </td>
+                            <td>
+                                <div><label for="fecha_registro">Fecha de Registro</label></div>
+                                <div><input id="fecha_registro" type="datetime-local" name="fecha_registro"></div>
+                            </td>
+                            <td>
+                                <div><label for="email">Correo electronico</label></div>
+                                <div><input id="email" type="email" name="email"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div><label for="password">Contraseña</label></div>
+                                <div><input type="password" id="password" name="password" required></div>
+                            </td>
+                            <td>
+                                <div><label for="edad">Edad</label></div>
+                                <div> <input type="number" id="edad" name="edad"></div>
+                            </td>
+                            <td>
+                                <div><label for="sexo">Sexo</label></div>
+                                <div>
+                                    <input type="radio" name="sexo" value="Masculino">Masculino <br>
+                                    <input type="radio" name="sexo" value="Femenino">Femenino
+                                </div>
+                            </td>
+                            <td>
+                                <div><label for="Fotografia">Fotografia</label></div>
+                                <div><input type="file" id="Fotografia" name="Fotografia"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div><label for="sitio_web">Sitio Web</label></div>
+                                <div><input type="url" id="sitio_web" name="sitio_web"> </div>
+                            </td>
+                            <td>
+                                <div><label for="hora_salida">Hora de Salida</label></div>
+                                <div><input type="time" id="hora_salida" name="hora_salida"></div>
+                            </td>
+                            <td>
+                                <div><label for="mes_ingreso">Mes de Ingreso</label></div>
+                                <div><input type="month" id="mes_ingreso" name="mes_ingreso"></div>
+                            </td>
+                            <td>
+                                <div><label for="salario">Salario</label></div>
+                                <div><input type="range" id="salario" name="salario" min="250000" max="3000000"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div><label for="rut">Rut</label></div>
+                                <div><input type="text" id="rut" name="rut"
+                                        pattern="^0*(\d{1,3}(\.?\d{3})*)\-?([\dkK])$"></div>
+                            </td>
+                            <td>
+                                <div><label for="telefono">Telefono</label></div>
+                                <div><input type="text" id="telefono" name="telefono"
+                                        pattern="/\A(\+?56)?(\s?)(0?9)(\s?)[9876543]\d{7}\z/"></div>
+                            </td>
+                        </tr>
+
+                    </div>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            <button type="submit">Enviar</button>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>

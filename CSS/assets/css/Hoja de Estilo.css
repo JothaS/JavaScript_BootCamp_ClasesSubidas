@@ -1,0 +1,68 @@
+.fondo-oscuro {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+#seccion-opiniones {
+    background-color: gray;
+    font-size: 24px;
+}
+
+p{
+    color: darkblue;
+    padding-left: 20px;
+
+}
+
+body {
+  background-color: rgb(243, 237, 237);
+  margin: 0px;
+}
+
+#caja1{
+    border: 5px solid rgb(58, 3, 3);
+    display: inline-block;
+    padding: 10px;
+    width: 300px;
+    
+}
+#caja2 {
+    display: block;
+    border: 5px solid black;
+    /*margin: 20px;*/
+    /*padding: 15px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+#caja1-1{
+    border: 5px solid rgb(58, 3, 3);
+    display: inline;
+    padding: 10px;
+    width: 45%;
+}
+
+#caja1-2{
+    border: 1px solid rgb(58, 3, 3);
+    padding: 15px;
+    width: 45vw;
+    height: 20vh;
+}
+
+.contenedor-inline{
+    margin-bottom: 35px;
+}
+
+

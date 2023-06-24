@@ -1,0 +1,67 @@
+#rojo{
+    background-color: #ff0000; 
+    border-color:  #ff0000; 
+   
+    }
+    
+#blanco{
+    background-color: white;
+    border-color: white;
+    }
+
+    
+#verde{
+    background-color: green;
+    border-color: green;
+    }
+    
+#gris{
+    background-color: gray;
+    border-color: gray;
+    }
+    
+#cafe{
+    background-color: brown;
+    border-color: brown;
+    }
+    
+#azul{
+    background-color: blue;
+    border-color: blue;
+    }
+    
+#violeta{
+    background-color: violet;
+    border-color: violet;
+    }
+    
+#rosado{
+    background-color: pink;
+    border-color: pink;
+    }
+    
+#amarillo{
+    background-color: yellow;
+    border-color: yellow;
+    }
+    
+#turquesa{
+    background-color: turquoise;
+    border-color: turquoise;
+    }
+    
+#naranjo{
+    background-color: orange;
+    border-color: orange;
+    }
+    
+#purpura{
+    background-color: purple;
+    border-color: purple;
+    }
+    
+#negro{
+    background-color: black;
+    color: white;
+    border-color: black;
+    }

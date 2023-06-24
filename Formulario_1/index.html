@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebound Exercise M2.S1 Formularios</title>
+</head>
+
+<body>
+    <!--Rebound Exercise M2.S1 Formularios-->
+
+    <h3>FORMULARIO</h3>
+    
+    <form action="" method="get"></form>
+
+
+    <div><label for="nombre">NOMBRE</label></div>
+    <div><input id="nombre" type="text" name="nombre" required></div> <br>
+
+
+    <div><label for="direccion">DIRECCION</label></div>
+    <div><input id="direccion" type="text" name="direccion" required></div><br>
+
+    <div><label for="Hobbies">ESPECIALIDAD MEDICA</label></div>
+    <div><input id="Hobbies" list="lista-Hobbies" name="nombre"></div>
+    <datalist id="lista-Hobbies">
+
+        <option value="MEDICINA GENERAL"></option>
+        <option value="MEDICINA INTERNA"></option>
+        <option value="TRAUMATOLOGIA"></option>
+        <option value="NUTRICION"></option>
+        <option value="PEDIATRIA"></option>
+    </datalist><br>
+
+    <div><label for="fecha">FECHA</label></div>
+    <div><input type="date" id="fecha" name="fecha"></div><br>
+
+    <div><label for="hora">HORA</label></div>
+    <div><input type="time" id="hora" name="hora"></div><br>
+
+    <div><label for="email">CORREO</label></div>
+    <div><input id="email" type="email" name="email"></div><br>
+
+    <button type="submit">CONFIRMAR</button>
+
+</body>
+
+</html>
